@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55878A17-A786-45E1-98F1-52FE9F6CE806}|AppAngular\\AppAngular.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular\\controllers\\authenticacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55878A17-A786-45E1-98F1-52FE9F6CE806}|AppAngular\\AppAngular.csproj|solutionrelative:appangular\\controllers\\authenticacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55878A17-A786-45E1-98F1-52FE9F6CE806}|AppAngular\\AppAngular.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular\\controllers\\envioemailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55878A17-A786-45E1-98F1-52FE9F6CE806}|AppAngular\\AppAngular.csproj|solutionrelative:appangular\\controllers\\envioemailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55878A17-A786-45E1-98F1-52FE9F6CE806}|AppAngular\\AppAngular.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular\\controllers\\aspnetusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55878A17-A786-45E1-98F1-52FE9F6CE806}|AppAngular\\AppAngular.csproj|solutionrelative:appangular\\controllers\\aspnetusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4EA652B-20B1-405A-93B7-E6719941BD56}|AppAngular.Servicios\\AppAngular.Servicios.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular.servicios\\servicios\\aspnetuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4EA652B-20B1-405A-93B7-E6719941BD56}|AppAngular.Servicios\\AppAngular.Servicios.csproj|solutionrelative:appangular.servicios\\servicios\\aspnetuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96C864-16A3-4BCE-89E9-DE41DD7A7266}|AppAngular.Data\\AppAngular.Data.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular.data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96C864-16A3-4BCE-89E9-DE41DD7A7266}|AppAngular.Data\\AppAngular.Data.csproj|solutionrelative:appangular.data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55878A17-A786-45E1-98F1-52FE9F6CE806}|AppAngular\\AppAngular.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55878A17-A786-45E1-98F1-52FE9F6CE806}|AppAngular\\AppAngular.csproj|solutionrelative:appangular\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D3B01E-C8B7-41A0-B9F4-8A05C88C1826}|AppAngular.DTOS\\AppAngular.DTOS.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular.dtos\\dtos\\aplicacionuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D3B01E-C8B7-41A0-B9F4-8A05C88C1826}|AppAngular.DTOS\\AppAngular.DTOS.csproj|solutionrelative:appangular.dtos\\dtos\\aplicacionuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55878A17-A786-45E1-98F1-52FE9F6CE806}|AppAngular\\AppAngular.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular\\mappingprofile\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55878A17-A786-45E1-98F1-52FE9F6CE806}|AppAngular\\AppAngular.csproj|solutionrelative:appangular\\mappingprofile\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96C864-16A3-4BCE-89E9-DE41DD7A7266}|AppAngular.Data\\AppAngular.Data.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular.data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96C864-16A3-4BCE-89E9-DE41DD7A7266}|AppAngular.Data\\AppAngular.Data.csproj|solutionrelative:appangular.data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F53E36D0-792C-4265-95CF-70FF4B206DE2}|AppAngular.Domain\\AppAngular.Domain.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F53E36D0-792C-4265-95CF-70FF4B206DE2}|AppAngular.Domain\\AppAngular.Domain.csproj|solutionrelative:appangular.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F53E36D0-792C-4265-95CF-70FF4B206DE2}|AppAngular.Domain\\AppAngular.Domain.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular.domain\\interfaces\\ienviaremailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F53E36D0-792C-4265-95CF-70FF4B206DE2}|AppAngular.Domain\\AppAngular.Domain.csproj|solutionrelative:appangular.domain\\interfaces\\ienviaremailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F53E36D0-792C-4265-95CF-70FF4B206DE2}|AppAngular.Domain\\AppAngular.Domain.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular.domain\\interfaces\\iconfirmemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F53E36D0-792C-4265-95CF-70FF4B206DE2}|AppAngular.Domain\\AppAngular.Domain.csproj|solutionrelative:appangular.domain\\interfaces\\iconfirmemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F53E36D0-792C-4265-95CF-70FF4B206DE2}|AppAngular.Domain\\AppAngular.Domain.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular.domain\\interfaces\\iauthenticacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F53E36D0-792C-4265-95CF-70FF4B206DE2}|AppAngular.Domain\\AppAngular.Domain.csproj|solutionrelative:appangular.domain\\interfaces\\iauthenticacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F53E36D0-792C-4265-95CF-70FF4B206DE2}|AppAngular.Domain\\AppAngular.Domain.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular.domain\\interfaces\\iaspnetuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F53E36D0-792C-4265-95CF-70FF4B206DE2}|AppAngular.Domain\\AppAngular.Domain.csproj|solutionrelative:appangular.domain\\interfaces\\iaspnetuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4EA652B-20B1-405A-93B7-E6719941BD56}|AppAngular.Servicios\\AppAngular.Servicios.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular.servicios\\servicios\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4EA652B-20B1-405A-93B7-E6719941BD56}|AppAngular.Servicios\\AppAngular.Servicios.csproj|solutionrelative:appangular.servicios\\servicios\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4EA652B-20B1-405A-93B7-E6719941BD56}|AppAngular.Servicios\\AppAngular.Servicios.csproj|c:\\users\\nicoo\\source\\repos\\appangular\\appangular.servicios\\servicios\\enviaremailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4EA652B-20B1-405A-93B7-E6719941BD56}|AppAngular.Servicios\\AppAngular.Servicios.csproj|solutionrelative:appangular.servicios\\servicios\\enviaremailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticacionController.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular\\Controllers\\AuthenticacionController.cs",
+              "RelativeDocumentMoniker": "AppAngular\\Controllers\\AuthenticacionController.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular\\Controllers\\AuthenticacionController.cs",
+              "RelativeToolTip": "AppAngular\\Controllers\\AuthenticacionController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwDAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:20:40.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnvioEmailController.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular\\Controllers\\EnvioEmailController.cs",
+              "RelativeDocumentMoniker": "AppAngular\\Controllers\\EnvioEmailController.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular\\Controllers\\EnvioEmailController.cs",
+              "RelativeToolTip": "AppAngular\\Controllers\\EnvioEmailController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:20:16.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Data\\AplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AppAngular.Data\\AplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Data\\AplicationDbContext.cs",
+              "RelativeToolTip": "AppAngular.Data\\AplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:13:23.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular\\MappingProfile\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "AppAngular\\MappingProfile\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular\\MappingProfile\\MappingProfile.cs",
+              "RelativeToolTip": "AppAngular\\MappingProfile\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:07:22.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AspNetUserController.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular\\Controllers\\AspNetUserController.cs",
+              "RelativeDocumentMoniker": "AppAngular\\Controllers\\AspNetUserController.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular\\Controllers\\AspNetUserController.cs",
+              "RelativeToolTip": "AppAngular\\Controllers\\AspNetUserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:06:30.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular\\Program.cs",
+              "RelativeDocumentMoniker": "AppAngular\\Program.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular\\Program.cs",
+              "RelativeToolTip": "AppAngular\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:12:33.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AspNetUserService.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Servicios\\Servicios\\AspNetUserService.cs",
+              "RelativeDocumentMoniker": "AppAngular.Servicios\\Servicios\\AspNetUserService.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Servicios\\Servicios\\AspNetUserService.cs",
+              "RelativeToolTip": "AppAngular.Servicios\\Servicios\\AspNetUserService.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAkwLEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T18:58:34.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AplicacionUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.DTOS\\DTOS\\AplicacionUserDTO.cs",
+              "RelativeDocumentMoniker": "AppAngular.DTOS\\DTOS\\AplicacionUserDTO.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.DTOS\\DTOS\\AplicacionUserDTO.cs",
+              "RelativeToolTip": "AppAngular.DTOS\\DTOS\\AplicacionUserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:08:54.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Domain\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "AppAngular.Domain\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Domain\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "AppAngular.Domain\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:06:20.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEnviarEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Domain\\Interfaces\\IEnviarEmailService.cs",
+              "RelativeDocumentMoniker": "AppAngular.Domain\\Interfaces\\IEnviarEmailService.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Domain\\Interfaces\\IEnviarEmailService.cs",
+              "RelativeToolTip": "AppAngular.Domain\\Interfaces\\IEnviarEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:06:19.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IConfirmEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Domain\\Interfaces\\IConfirmEmailService.cs",
+              "RelativeDocumentMoniker": "AppAngular.Domain\\Interfaces\\IConfirmEmailService.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Domain\\Interfaces\\IConfirmEmailService.cs",
+              "RelativeToolTip": "AppAngular.Domain\\Interfaces\\IConfirmEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:06:17.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IAuthenticacionService.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Domain\\Interfaces\\IAuthenticacionService.cs",
+              "RelativeDocumentMoniker": "AppAngular.Domain\\Interfaces\\IAuthenticacionService.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Domain\\Interfaces\\IAuthenticacionService.cs",
+              "RelativeToolTip": "AppAngular.Domain\\Interfaces\\IAuthenticacionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:06:12.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAspNetUserService.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Domain\\Interfaces\\IAspNetUserService.cs",
+              "RelativeDocumentMoniker": "AppAngular.Domain\\Interfaces\\IAspNetUserService.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Domain\\Interfaces\\IAspNetUserService.cs",
+              "RelativeToolTip": "AppAngular.Domain\\Interfaces\\IAspNetUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:06:05.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Servicios\\Servicios\\JwtService.cs",
+              "RelativeDocumentMoniker": "AppAngular.Servicios\\Servicios\\JwtService.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Servicios\\Servicios\\JwtService.cs",
+              "RelativeToolTip": "AppAngular.Servicios\\Servicios\\JwtService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:05:30.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EnviarEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Servicios\\Servicios\\EnviarEmailService.cs",
+              "RelativeDocumentMoniker": "AppAngular.Servicios\\Servicios\\EnviarEmailService.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Servicios\\Servicios\\EnviarEmailService.cs",
+              "RelativeToolTip": "AppAngular.Servicios\\Servicios\\EnviarEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:03:59.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Data\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "AppAngular.Data\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\NiCoo\\source\\repos\\AppAngular\\AppAngular.Data\\Repository\\Repository.cs",
+              "RelativeToolTip": "AppAngular.Data\\Repository\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T18:49:46.226Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

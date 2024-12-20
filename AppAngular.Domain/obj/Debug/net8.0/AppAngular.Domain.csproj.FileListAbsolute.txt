@@ -1,0 +1,15 @@
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\bin\Debug\net8.0\AppAngular.Domain.deps.json
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\bin\Debug\net8.0\AppAngular.Domain.dll
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\bin\Debug\net8.0\AppAngular.Domain.pdb
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\bin\Debug\net8.0\AppAngular.DTOS.dll
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\bin\Debug\net8.0\AppAngular.DTOS.pdb
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\obj\Debug\net8.0\AppAngular.Domain.csproj.AssemblyReference.cache
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\obj\Debug\net8.0\AppAngular.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\obj\Debug\net8.0\AppAngular.Domain.AssemblyInfoInputs.cache
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\obj\Debug\net8.0\AppAngular.Domain.AssemblyInfo.cs
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\obj\Debug\net8.0\AppAngular.Domain.csproj.CoreCompileInputs.cache
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\obj\Debug\net8.0\AppAngul.7EE032DA.Up2Date
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\obj\Debug\net8.0\AppAngular.Domain.dll
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\obj\Debug\net8.0\refint\AppAngular.Domain.dll
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\obj\Debug\net8.0\AppAngular.Domain.pdb
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Domain\obj\Debug\net8.0\ref\AppAngular.Domain.dll

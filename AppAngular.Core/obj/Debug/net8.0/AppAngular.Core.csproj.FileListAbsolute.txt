@@ -1,0 +1,5 @@
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Core\obj\Debug\net8.0\AppAngular.Core.csproj.AssemblyReference.cache
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Core\obj\Debug\net8.0\AppAngular.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Core\obj\Debug\net8.0\AppAngular.Core.AssemblyInfoInputs.cache
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Core\obj\Debug\net8.0\AppAngular.Core.AssemblyInfo.cs
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular.Core\obj\Debug\net8.0\AppAngular.Core.csproj.CoreCompileInputs.cache

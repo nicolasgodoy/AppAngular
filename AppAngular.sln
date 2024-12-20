@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppAngular", "AppAngular\AppAngular.csproj", "{55878A17-A786-45E1-98F1-52FE9F6CE806}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppAngular.Data", "AppAngular.Data\AppAngular.Data.csproj", "{1C96C864-16A3-4BCE-89E9-DE41DD7A7266}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{840C6F35-F628-4DE7-BC2E-AF14E35F2986}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppAngular.DTOS", "AppAngular.DTOS\AppAngular.DTOS.csproj", "{A2D3B01E-C8B7-41A0-B9F4-8A05C88C1826}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppAngular.Domain", "AppAngular.Domain\AppAngular.Domain.csproj", "{F53E36D0-792C-4265-95CF-70FF4B206DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppAngular.Servicios", "AppAngular.Servicios\AppAngular.Servicios.csproj", "{C4EA652B-20B1-405A-93B7-E6719941BD56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55878A17-A786-45E1-98F1-52FE9F6CE806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55878A17-A786-45E1-98F1-52FE9F6CE806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55878A17-A786-45E1-98F1-52FE9F6CE806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55878A17-A786-45E1-98F1-52FE9F6CE806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C96C864-16A3-4BCE-89E9-DE41DD7A7266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C96C864-16A3-4BCE-89E9-DE41DD7A7266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C96C864-16A3-4BCE-89E9-DE41DD7A7266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C96C864-16A3-4BCE-89E9-DE41DD7A7266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D3B01E-C8B7-41A0-B9F4-8A05C88C1826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D3B01E-C8B7-41A0-B9F4-8A05C88C1826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D3B01E-C8B7-41A0-B9F4-8A05C88C1826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D3B01E-C8B7-41A0-B9F4-8A05C88C1826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F53E36D0-792C-4265-95CF-70FF4B206DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53E36D0-792C-4265-95CF-70FF4B206DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53E36D0-792C-4265-95CF-70FF4B206DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53E36D0-792C-4265-95CF-70FF4B206DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4EA652B-20B1-405A-93B7-E6719941BD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4EA652B-20B1-405A-93B7-E6719941BD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4EA652B-20B1-405A-93B7-E6719941BD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4EA652B-20B1-405A-93B7-E6719941BD56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE65DDC0-6C84-46D0-B86C-11707CC37137}
+	EndGlobalSection
+EndGlobal

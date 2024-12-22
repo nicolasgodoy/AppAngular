@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppAngular.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+344c353873c28fb021469547b9e3b686f229cd84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45d342264e3a9548840385395df80d9f032ce757")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppAngular.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppAngular.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

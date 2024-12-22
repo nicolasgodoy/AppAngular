@@ -1,0 +1,88 @@
+﻿# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+
+# Build Folders
+bin/
+obj/
+out/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated\ Files/
+
+# Package directories
+*.nupkg
+*.snupkg
+packages/
+*.lock.json
+.project/
+.project.lock.json
+.global.json
+.nuget/
+.nuget.config
+
+# JetBrains Rider
+.idea/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Web-specific
+node_modules/
+wwwroot/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Angular CLI
+.angular/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+
+# Azure related
+*.azurefunctions/
+local.settings.json
+
+# Coverage Reports
+coverage/
+*.coverage
+*.coveragexml
+*.codecov
+lcov-report/
+
+# Resharper
+*.DotSettings.user
+
+# StyleCop
+*.CacheFile
+
+# Others
+*.swp
+*.lock

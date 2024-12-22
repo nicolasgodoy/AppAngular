@@ -13,6 +13,4 @@ namespace AppAngular.Domain.Interfaces
         Task<bool> ConfirmEmailAsync(string userId, string code);
     }
 
-    // HAY QUE LLEVARLO A LA CAPA CORE PERO NOSE PORQUE NO ME LA TOMA
-
 }

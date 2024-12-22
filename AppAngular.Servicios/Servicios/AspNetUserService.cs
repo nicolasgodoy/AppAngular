@@ -13,6 +13,8 @@ using System.Reflection;
 using System.Text;
 using System.Text.Encodings.Web;
 
+// Ahora si dejando solucion subida y bien estructurada.
+
 namespace AppAngular.Servicios
 {
     public class AspNetUserService : IAspNetUserService

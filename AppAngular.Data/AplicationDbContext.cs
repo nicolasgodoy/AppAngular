@@ -16,6 +16,7 @@ namespace AppAngular
         {
             base.OnModelCreating(modelBuilder);
             // Configura cualquier mapeo adicional si es necesario
+            // ahora si dejando solucion subida y bien estructurada.
         }
     }
 }

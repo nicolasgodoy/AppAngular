@@ -2,7 +2,6 @@
 {
     public class CrearUsuarioDTO
     {
-        // ahora si dejando solucion subida y bien estructurada.
         public string Email { get; set; }
 
         public string PasswordHash { get; set; }

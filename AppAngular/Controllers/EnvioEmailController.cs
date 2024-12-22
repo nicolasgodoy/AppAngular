@@ -8,7 +8,5 @@ namespace AppAngular.Controllers
     public class EnvioEmailController : Controller
     {
         // usar para otro posible controllador
-        // ahora si dejando solucion subida y bien estructurada.
-
     }
 }

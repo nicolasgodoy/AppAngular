@@ -3,7 +3,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AppAngular.Domain.Models
 {
-
     [Table("AspNetUsers")]
     public class AspNetUsers : IdentityUser
     { 

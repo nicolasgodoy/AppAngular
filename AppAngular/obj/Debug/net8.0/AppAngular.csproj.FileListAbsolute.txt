@@ -198,3 +198,4 @@ C:\Users\NiCoo\source\repos\AppAngular\AppAngular\obj\Debug\net8.0\refint\AppAng
 C:\Users\NiCoo\source\repos\AppAngular\AppAngular\obj\Debug\net8.0\AppAngular.pdb
 C:\Users\NiCoo\source\repos\AppAngular\AppAngular\obj\Debug\net8.0\AppAngular.genruntimeconfig.cache
 C:\Users\NiCoo\source\repos\AppAngular\AppAngular\obj\Debug\net8.0\ref\AppAngular.dll
+C:\Users\NiCoo\source\repos\AppAngular\AppAngular\obj\Debug\net8.0\AppAngular.sourcelink.json

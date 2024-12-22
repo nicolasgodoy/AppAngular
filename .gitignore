@@ -5,6 +5,7 @@
 *.suo
 *.userosscache
 *.sln.docstates
+*.slnx.sqlite
 .vscode/
 
 # Build Folders

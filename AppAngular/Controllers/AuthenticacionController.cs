@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AppAngular.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class AuthenticacionController : Controller
     {
         private readonly IAuthenticacionService _authenticacion;
@@ -14,7 +16,7 @@ namespace AppAngular.Controllers
             _aspNetUserService = aspNetUserService;
         }
         [HttpPost("register")]
-        public async Task<ActionResult<IEnumerable<CrearUsuarioDTO>>> Create(CrearUsuarioDTO userDto)
+        public async Task<ActionResult<IEnumerable<CrearUsuarioDTO>>> Create([FromBody] CrearUsuarioDTO userDto)
         {
             await _aspNetUserService.CreateUserAsync(userDto);
 

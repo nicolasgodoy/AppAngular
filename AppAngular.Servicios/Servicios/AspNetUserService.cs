@@ -5,7 +5,6 @@ using AppAngular.Service.Extensions;
 using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using System.Net;
 using System.Net.Mail;
@@ -50,7 +49,7 @@ namespace AppAngular.Servicios
             await _userStore.SetUserNameAsync(user, userDto.Email, CancellationToken.None);
             await emailStore.SetEmailAsync(user, userDto.Email, CancellationToken.None);
 
-            var result = await _userManager.CreateAsync(user, userDto.PasswordHash);
+            var result = await _userManager.CreateAsync(user, userDto.Password);
             if (!result.Succeeded)
             {
                 // Crear un mensaje de error detallado
@@ -58,8 +57,8 @@ namespace AppAngular.Servicios
                 var errorMessage = $"Error al crear el usuario: {errorMessages}";
 
                 // Devolver null para indicar un fallo
-                Console.WriteLine(errorMessage); // Opcional: Log del error
-                return null;
+                throw new Exception(errorMessage); // Opcional: Log del error
+    
             }
 
             var authConfiguration = _authConfiguration.Value; // Accediendo a la configuración
@@ -93,43 +92,11 @@ namespace AppAngular.Servicios
             // Construir y devolver el DTO
             var response = new CrearUsuarioDTO
             {
-                Email = user.Email,
-                UserName = user.UserName,
-                Message = "Confirm Your Email Address to Complete Your Registration"
+                Email = user.Email
             };
       
             return response;
         }
-
-        // EL QUE HABIA ECHO YO
-        //public async Task<CrearUsuarioDTO> CreateUserAsync2(CrearUsuarioDTO userDto)
-        //{
-        //    // Validar si el correo electrónico ya está confirmado
-        //    if (!userDto.EmailConfirmed)
-        //    {
-        //        // para futuro manejo de errores por ahora siempre lo ponemos en true
-        //        throw new ArgumentException("El correo electrónico no está confirmado.");
-        //    }
-        //    // Validar si el nombre de usuario ya existe
-        //    var existingUser = await _repository.GetAllAsync();
-        //    if (existingUser.Any(u => u.UserName == userDto.UserName))
-        //    {
-        //        // Si el nombre de usuario ya existe, lanza una excepcion
-        //        throw new ArgumentException("El nombre de usuario ya está en uso.");
-        //    }
-        //    // Mapeo del DTO a la entidad `AspNetUsers`
-        //    var userEntity = _mapper.Map<AspNetUsers>(userDto);
-
-        //    await _repository.AddAsync(userEntity);
-
-        //    // Enviar correo de bienvenida
-        //    var subject = "Bienvenido a nuestra aplicación";
-        //    var body = $"Hola {userDto.UserName}, gracias por registrarte.";
-        //    await SendEmailAsync(userDto.Email, userDto.PasswordHash, userDto.UserName, subject, body);
-
-        //    // Devolver el usuario creado (envolver en un Task)
-        //    return await Task.FromResult(userDto);
-        //}
 
         public async Task<IEnumerable<AspNetUserDTO>> GetAllUsersAsync()
         {
@@ -140,6 +107,7 @@ namespace AppAngular.Servicios
             {
                     Email = user.Email,
                     PasswordHash = user.PasswordHash,
+                    Emailconfirmed = user.EmailConfirmed
      
             });
 

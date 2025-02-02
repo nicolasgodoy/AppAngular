@@ -87,6 +87,20 @@ namespace AppAngular.Authenticacion
             // Validar contraseña
             //await CheckPasswordAsync(loginDto);
 
+            // Verificar si el correo está confirmado
+            if (!user.EmailConfirmed)
+            {
+                throw new Exception("El correo electrónico no ha sido confirmado.");
+            }
+
+            // Verificar las credenciales del usuario
+            var result = await _signInManager.PasswordSignInAsync(user.UserName, loginDto.Password, false, false);
+
+            if (!result.Succeeded)
+            {
+                throw new Exception("Inicio de sesión fallido. Verifica tus credenciales.");
+            }
+
             // Realizar inicio de sesión
             await _signInManager.PasswordSignInAsync(loginDto.Email, loginDto.Password,  false, false);
             if (loginDto.Email == null || loginDto.Password == null)

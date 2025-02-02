@@ -29,7 +29,7 @@ namespace AppAngular.Controllers
 
             var result = await _authenticacion.SignInAsync(loginDto);
 
-            return Ok(new { Message = "Inicio de sesión exitoso", result });
+            return Ok(result);
         }
 
         [HttpPost("refresh")]
@@ -50,7 +50,7 @@ namespace AppAngular.Controllers
 
             var result = await _aspNetUserService.ConfirmEmailAsync(UserId, Code);
 
-            return result ? Ok("Correo confirmado exitosamente.") : BadRequest("No se pudo confirmar el correo.");
+            return result ? Ok() : BadRequest();
         }
     }
 }

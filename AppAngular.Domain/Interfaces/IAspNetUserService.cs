@@ -8,7 +8,7 @@ namespace AppAngular.Domain.Interfaces
 
         Task<CrearUsuarioDTO> CreateUserAsync(CrearUsuarioDTO userDto);
 
-        Task SendEmailAsync(string email,string token, string subject, string message, string body);
+        //Task SendEmailAsync(string email,string token, string subject, string message, string body);
 
         Task<bool> ConfirmEmailAsync(string userId, string code);
     }

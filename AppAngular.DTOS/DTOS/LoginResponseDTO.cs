@@ -1,4 +1,6 @@
-﻿namespace AppAngular.DTOS
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace AppAngular.DTOS
 {
     public class LoginResponseDTO
     {

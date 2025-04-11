@@ -113,38 +113,6 @@ namespace AppAngular.Servicios
 
         }
 
-        //public async Task SendEmailAsync(string email, string token, string subject, string message, string body)
-        //{
-        //    try
-        //    {
-        //        using (var client = new SmtpClient("smtp.gmail.com")
-        //        {
-        //            Port = 587, // Cambia el puerto según tu proveedor
-        //            Credentials = new NetworkCredential(email, token),
-        //            EnableSsl = true,
-        //        })
-        //        {
-        //            var mailMessage = new MailMessage
-        //            {
-        //                From = new MailAddress(email),
-        //                Subject = subject,
-        //                Body = body,
-        //                IsBodyHtml = true,
-        //            };
-
-        //            mailMessage.To.Add(email);  // Cambiar aquí si deseas otro destinatario
-
-        //            await client.SendMailAsync(mailMessage);
-        //        }
-        //    }
-        //    catch (SmtpException ex)
-        //    {
-        //        // Log o manejar el error
-        //        Console.WriteLine($"Error al enviar correo: {ex.Message}");
-        //        throw; // O devolver un error personalizado
-        //    }
-        //}
-
         public async Task<bool> ConfirmEmailAsync(string UserId, string Code)
         {
             // Buscar al usuario por el correo electrónico

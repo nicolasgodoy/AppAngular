@@ -1,5 +1,6 @@
 using AppAngular;
 using AppAngular.Authenticacion;
+using AppAngular.Data.Repository;
 using AppAngular.Domain.Interfaces;
 using AppAngular.Domain.Models;
 using AppAngular.Repository;
@@ -31,11 +32,13 @@ builder.Services.AddIdentity<AspNetUsers, IdentityRole>()
 
 // Registros Repository
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped<IPublicacionRepository, PublicacionRepository>();
 
 // Registros Servicios
 builder.Services.AddScoped<IAuthenticacionService, AuthenticacionService>();
 builder.Services.AddScoped<IAspNetUserService, AspNetUserService>();
 builder.Services.AddScoped<IEnviarEmailService, EnviarEmailService>();
+builder.Services.AddScoped<IPublicacionService, PublicacionService>();
 
 // clases extensiones son distintas a los servicios
 var authConfigSection = builder.Configuration.GetSection("AuthConfiguration");

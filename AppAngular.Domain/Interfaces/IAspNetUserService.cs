@@ -6,7 +6,7 @@ namespace AppAngular.Domain.Interfaces
     {
         Task<IEnumerable<AspNetUserDTO>> GetAllUsersAsync();
 
-        Task<CrearUsuarioDTO> CreateUserAsync(CrearUsuarioDTO userDto);
+        Task<CreateUserDTO> CreateUserAsync(CreateUserDTO userDto);
 
         Task<bool> ConfirmEmailAsync(string userId, string code);
     }

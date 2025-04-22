@@ -1,4 +1,5 @@
 ﻿using AppAngular.Domain.Interfaces;
+using AppAngular.Domain.IRepository;
 using AppAngular.Domain.Models;
 using AppAngular.DTOS;
 using AppAngular.Service.Extensions;
@@ -39,7 +40,7 @@ namespace AppAngular.Servicios
             _authConfiguration = authConfiguration;
         }
 
-        public async Task<CrearUsuarioDTO> CreateUserAsync(CrearUsuarioDTO userDto)
+        public async Task<CreateUserDTO> CreateUserAsync(CreateUserDTO userDto)
         {
             var emailStore = (IUserEmailStore<AspNetUsers>)_userStore;
 
@@ -90,7 +91,7 @@ namespace AppAngular.Servicios
             await _enviarEmailService.SendEmailAsync(user.Email, "Confirm Your Email Address to Complete Your Registration", content);
 
             // Construir y devolver el DTO
-            var response = new CrearUsuarioDTO
+            var response = new CreateUserDTO
             {
                 Email = user.Email
             };

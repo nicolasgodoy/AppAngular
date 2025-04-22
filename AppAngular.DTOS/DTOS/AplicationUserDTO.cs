@@ -1,6 +1,6 @@
 ﻿namespace AppAngular.Service.DTOS
 {
-    public class AplicacionUserDTO
+    public class AplicationUserDTO
     {
         public string RefreshToken { get; set; }
     }

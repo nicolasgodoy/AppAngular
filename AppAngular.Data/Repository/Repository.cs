@@ -1,4 +1,4 @@
-﻿using AppAngular.Domain.Interfaces;
+﻿using AppAngular.Domain.IRepository;
 using Microsoft.EntityFrameworkCore;
 
 namespace AppAngular.Repository

@@ -1,6 +1,6 @@
 ﻿namespace AppAngular.DTOS
 {
-    public class CrearUsuarioDTO
+    public class CreateUserDTO
     {
         public string Email { get; set; }
 

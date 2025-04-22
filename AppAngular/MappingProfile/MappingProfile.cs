@@ -12,9 +12,9 @@ namespace AppAngular.MappingProfile
         {
             CreateMap<AspNetUsers, AspNetUserDTO>();
 
-            CreateMap<CrearUsuarioDTO, AspNetUsers>();
+            CreateMap<CreateUserDTO, AspNetUsers>();
 
-            CreateMap<AplicacionUserDTO, IdentityUser>();
+            CreateMap<AplicationUserDTO, IdentityUser>();
         }
     }
 }

@@ -16,7 +16,7 @@ namespace AppAngular.Controllers
             _aspNetUserService = aspNetUserService;
         }
         [HttpPost("register")]
-        public async Task<ActionResult<IEnumerable<CrearUsuarioDTO>>> Create([FromBody] CrearUsuarioDTO userDto)
+        public async Task<ActionResult<IEnumerable<CreateUserDTO>>> Create([FromBody] CreateUserDTO userDto)
         {
             await _aspNetUserService.CreateUserAsync(userDto);
 

@@ -1,4 +1,4 @@
-﻿namespace AppAngular.Domain.Interfaces
+﻿namespace AppAngular.Domain.IRepository
 {
     public interface IRepository<AspNetUsers> where AspNetUsers : class
     {

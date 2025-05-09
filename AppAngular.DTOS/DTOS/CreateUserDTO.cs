@@ -6,11 +6,12 @@
 
         public string Password { get; set; }
 
-       //public bool EmailConfirmed { get; set; }
+        // Por esto:
+        public List<string> Roles { get; set; } = new();
 
-       //public string UserName {  get; set; }
+        //public string UserName {  get; set; }
 
-       // public string Message { get; set; }
+        // public string Message { get; set; }
 
     }
 }

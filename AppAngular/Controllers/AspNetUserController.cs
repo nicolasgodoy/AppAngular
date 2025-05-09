@@ -1,6 +1,7 @@
 ﻿using AppAngular.Domain.Interfaces;
 using AppAngular.DTOS;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace AppAngular.Controllers
@@ -16,6 +17,7 @@ namespace AppAngular.Controllers
             _aspNetUserService = userService;
         }
 
+        //[Authorize(Roles = "Admin")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AspNetUserDTO>>> GetAllUsers()
         {

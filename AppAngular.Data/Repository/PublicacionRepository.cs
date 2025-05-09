@@ -116,26 +116,26 @@ namespace AppAngular.Data.Repository
             {
                 await connection.OpenAsync();
 
-                var query = @"
+                // 1. Insertar la publicación y obtener el ID generado
+                var insertQuery = @"
                 INSERT INTO Publications 
-                    (Title, Description, Price, StockAvailable, PublicationDate, Status, CategoryId, UserId)
+                    (Title, Description, Price, StockAvailable, PublicationDate, StatusEnums, CategoryId, UserId)
                 OUTPUT INSERTED.Id
                 VALUES 
-                    (@Title, @Description, @Price, @StockAvailable, @PublicationDate, @Status, @CategoryId, @UserId)";
+                    (@Title, @Description, @Price, @StockAvailable, @PublicationDate, @StatusEnums, @CategoryId, @UserId)";
 
-                using (var command = new SqlCommand(query, connection))
+                using (var insertCommand = new SqlCommand(insertQuery, connection))
                 {
-                    command.Parameters.AddWithValue("@Title", publicacion.Title);
-                    command.Parameters.AddWithValue("@Description", publicacion.Description);
-                    command.Parameters.AddWithValue("@Price", publicacion.Price);
-                    command.Parameters.AddWithValue("@StockAvailable", publicacion.StockAvailable);
-                    command.Parameters.AddWithValue("@PublicationDate", publicacion.PublicationDate);
-                    command.Parameters.AddWithValue("@Status", (int)publicacion.StatusEnums); // si usás enum
-                    command.Parameters.AddWithValue("@CategoryId", publicacion.CategoryId);
-                    command.Parameters.AddWithValue("@UserId", publicacion.UserId);
+                    insertCommand.Parameters.AddWithValue("@Title", publicacion.Title);
+                    insertCommand.Parameters.AddWithValue("@Description", publicacion.Description);
+                    insertCommand.Parameters.AddWithValue("@Price", publicacion.Price);
+                    insertCommand.Parameters.AddWithValue("@StockAvailable", publicacion.StockAvailable);
+                    insertCommand.Parameters.AddWithValue("@PublicationDate", publicacion.PublicationDate);
+                    insertCommand.Parameters.AddWithValue("@StatusEnums", (int)publicacion.StatusEnums);
+                    insertCommand.Parameters.AddWithValue("@CategoryId", publicacion.CategoryId);
+                    insertCommand.Parameters.AddWithValue("@UserId", publicacion.UserId);
 
-                    var id = (int)await command.ExecuteScalarAsync();
-                    publicacion.Id = id;
+                    publicacion.Id = (int)await insertCommand.ExecuteScalarAsync();
                 }
             }
 

@@ -22,6 +22,7 @@ public class CategoryService : ICategoryService
 
         return category.Select(category => new CategoryDTO
         {
+            Id = category.Id,
             Name = category.Name,
             Description = category.Description,
             Active = category.Active,

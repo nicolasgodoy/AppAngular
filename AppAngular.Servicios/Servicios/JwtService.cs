@@ -36,6 +36,13 @@ namespace AppAngular.Service.Servicios
             claims.Add(new Claim(ClaimTypes.Name, user.Email));
             claims.Add(new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()));
 
+            // ✅ Agregar claim personalizado "isSeller"
+            if (roles.Contains("Vendedor"))
+                claims.Add(new Claim("isSeller", "true"));
+
+            if (roles.Contains("Admin"))
+                claims.Add(new Claim("isAdmin", "true"));
+
             return this.GenerateToken(user, claims, expiration);
         }
 

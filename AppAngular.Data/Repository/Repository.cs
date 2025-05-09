@@ -40,7 +40,7 @@ namespace AppAngular.Repository
             throw new NotImplementedException();
         }
 
-        public Task<T> GetByIdAsync(object id)
+        public async Task<T> GetByIdAsync(object id)
         {
             throw new NotImplementedException();
         }

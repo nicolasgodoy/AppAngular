@@ -24,13 +24,16 @@ namespace AppAngular.Servicios
         private readonly UserManager<AspNetUsers> _userManager;
         private readonly IUserStore<AspNetUsers> _userStore;
         private readonly IEnviarEmailService _enviarEmailService;
+        private readonly RoleManager<IdentityRole> _roleManager; // <-- Agregado
+
         public AspNetUserService(
             IRepository<AspNetUsers> repository,  
             IMapper mapper, 
             IUserStore<AspNetUsers> userStore, 
             UserManager<AspNetUsers> userManager,
             IEnviarEmailService enviarEmailService,
-            IOptions<AuthConfiguration> authConfiguration)
+            IOptions<AuthConfiguration> authConfiguration,
+            RoleManager<IdentityRole> roleManager)
         {
             _repository = repository ?? throw new ArgumentNullException(nameof(repository));
             _mapper = mapper;
@@ -38,6 +41,7 @@ namespace AppAngular.Servicios
             _userStore = userStore;
             _enviarEmailService = enviarEmailService;
             _authConfiguration = authConfiguration;
+            _roleManager = roleManager;
         }
 
         public async Task<CreateUserDTO> CreateUserAsync(CreateUserDTO userDto)
@@ -60,6 +64,21 @@ namespace AppAngular.Servicios
                 // Devolver null para indicar un fallo
                 throw new Exception(errorMessage); // Opcional: Log del error
     
+            }
+
+            // el usuario es Vendedor?
+            if (userDto.Roles != null && userDto.Roles.Any())
+            {
+                foreach (var roleName in userDto.Roles)
+                {
+                    var roleExists = await _roleManager.RoleExistsAsync(roleName);
+                    if (!roleExists)
+                    {
+                        await _roleManager.CreateAsync(new IdentityRole(roleName));
+                    }
+
+                    await _userManager.AddToRoleAsync(user, roleName);
+                }
             }
 
             var authConfiguration = _authConfiguration.Value; // Accediendo a la configuración
@@ -106,6 +125,7 @@ namespace AppAngular.Servicios
 
             return users.Select(user => new AspNetUserDTO
             {
+                    Id = user.Id,
                     Email = user.Email,
                     PasswordHash = user.PasswordHash,
                     Emailconfirmed = user.EmailConfirmed
@@ -137,9 +157,14 @@ namespace AppAngular.Servicios
         }
 
 
-        public Task<AspNetUserDTO> GetUserByIdAsync(string id)
+        public async Task<string> GetUserByIdAsync(string id)
         {
-            throw new NotImplementedException();
+            var user = await _repository.GetByIdAsync(id);
+
+            if (user == null)
+                throw new ArgumentException("Usuario no encontrado.");
+
+            return user.Id;
         }
 
 

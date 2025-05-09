@@ -5,11 +5,13 @@ using AppAngular.Domain.Models;
 using AppAngular.DTOS;
 using AppAngular.DTOS.DTOS;
 using AutoMapper;
+using System.Data.SqlClient;
 
 public class PublicationService : IPublicationService
 {
     private readonly IPublicationRepository _publicacionRepository;
     private readonly IAspNetUserService _userService;
+    private readonly ICategoryRepository _categoryRepository;
     private readonly IMapper _mapper;
 
     public PublicationService(IPublicationRepository publicacionRepository, IAspNetUserService userService, IMapper mapper)
@@ -39,7 +41,7 @@ public class PublicationService : IPublicationService
 
             Category = new CategoryDTO
             {
-                Id = publicacion.Category.Id,
+                Id = publicacion.Category.Id, //Aclaracion que aca me falta declararlo por eso me llegaba 0 al front
                 Name = publicacion.Category.Name,
                 Description = publicacion.Category.Description,
                 Active = publicacion.Category.Active
@@ -54,28 +56,23 @@ public class PublicationService : IPublicationService
 
     public async Task AddAsync(CreatePublicationDTO publicacionDto)
     {
-        try
-        {
-            var publicationEntity = new Publication
-            {
-                Title = publicacionDto.Title,
-                Description = publicacionDto.Description,
-                Price = publicacionDto.Price,
-                StockAvailable = publicacionDto.StockAvailable,
-                PublicationDate = publicacionDto.PublicationDate,
-                StatusEnums = Enum.Parse<StatusEnums>(publicacionDto.Status, true),
-                UserId = publicacionDto.UserId,
-                CategoryId = publicacionDto.CategoryId
-            };
 
-            await _publicacionRepository.AddAsync(publicationEntity);
-        }
-        catch (ArgumentException ex)
+        // Tener en cuenta posibles validaciones futuras
+       
+        var publicationEntity = new Publication
         {
-            // Log o manejo del error
-            Console.WriteLine($"Error al parsear el Status: {ex.Message}");
-            throw;  // O puedes devolver un error más amigable si prefieres
-        }
+            Title = publicacionDto.Title,
+            Description = publicacionDto.Description,
+            Price = publicacionDto.Price,
+            StockAvailable = publicacionDto.StockAvailable,
+            PublicationDate = publicacionDto.PublicationDate,
+            StatusEnums = Enum.Parse<StatusEnums>(publicacionDto.Status, true),
+            UserId = publicacionDto.UserId,
+            CategoryId = publicacionDto.CategoryId
+        };
+
+        await _publicacionRepository.AddAsync(publicationEntity);
+        
     }
 
     public async Task UpdateAsync(UpdatePublicationDTO publicationDto) //Crear DTO para el Update
@@ -103,4 +100,5 @@ public class PublicationService : IPublicationService
     {
         throw new NotImplementedException();
     }
+
 }
